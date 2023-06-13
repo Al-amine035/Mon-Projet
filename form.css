@@ -1,0 +1,52 @@
+/* Formulaire de connexion */
+form{
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+    background-color: #3f27df;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+  }
+  
+   h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+   input[type="text"],
+   input[type="email"],
+   input[type="password"] {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+   input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+   input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+   label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    position: relative;
+    left: 10px;
+    
+  }
+  
